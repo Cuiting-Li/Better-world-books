@@ -9,27 +9,29 @@
     <link rel="stylesheet" href="./css/hp.css">
     <link rel="stylesheet" href="./css/main.css">
     <script src="./js/navbar.js"></script>
-    <script src="./https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script>
-      $(document).ready(function(){
-         
-         $('#myTopnav').load("nav.html");
-      
-      });
-      </script>
-
-</head>
 <body>
-    <div id="myTopnav"></div>
+
+    <div class="topnav" id="myTopnav">
+        <img src="./image/logo.svg" class="logo" alt="">
+        <a href="./index.html">Home</a>
+        <a href="#contact">Contact</a>
+        <a href="#">About</a>
+        <a href="#">Sign in</a>
+        <a href="./searchpage.html">Search</a>
+        <a href=""><img src="./image/cart.jpg" class="nav-cart"></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
     
      <div class="slider">
         <div class="images">
             <input type="radio" name="slide" id="img1" checked>
             <input type="radio" name="slide" id="img2">
             <input type="radio" name="slide" id="img3">
-            <img src="./image/slide1.png" class="m1" alt="img1">
-            <img src="./image/slide2.png" class="m2" alt="img2">
-            <img src="./image/slide3.png" class="m3" alt="img3">
+            <img src="./image/slide1.jpg" class="m1" alt="img1">
+            <img src="./image/slide2.jpg" class="m2" alt="img2">
+            <img src="./image/slide3.jpg" class="m3" alt="img3">
 
         </div>
         <div class="dots">
