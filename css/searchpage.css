@@ -11,8 +11,6 @@
     width: 16rem;
     cursor: pointer;
     padding: 5px 1%; 
-    position: relative;
-    left: 0%;
 
 }
 .logo2{/*A smaller logo will be shown on smaller screen*/
@@ -20,8 +18,6 @@
     height: 60px;
     cursor: pointer;
     display: none;
-    position: relative;
-    left: 0%;
     
 }
 .searchbar{
@@ -55,4 +51,18 @@
     .logo2{
         display: block;
     }
+}
+
+.Search-history{
+    margin: 100px auto;
+   color: white;
+   font-size: 1.5rem;
+}
+
+
+
+.Popular-search{
+    margin: 20px auto;
+    color: white;
+    font-size: 1.5rem;
 }
