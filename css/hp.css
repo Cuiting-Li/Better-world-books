@@ -191,7 +191,7 @@ h2{
 }
 
 footer{
-    background-image: url(/image/footer.png);
+    background-image: url(../image/footer.png);
     background-size: cover;
     height: auto;
     width: 100%;
