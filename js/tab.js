@@ -1,1 +1,1 @@
-document.location.href="#content1";
+productpage.location.href="#content1";
