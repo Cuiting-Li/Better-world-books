@@ -35,7 +35,7 @@
     margin-top: -10px;
 }
 
-.btn1{
+.btn-a{
     font-size: 18px;
     color: white;
     background-color: green;
@@ -46,7 +46,7 @@
     height: 40px;
 }
 
-.btn2{
+.btn-b{
     font-size: 18px;
     border: 2px solid green;
     border-radius: 10px;
@@ -55,7 +55,7 @@
     height: 40px;
 }
 
-h1,h4,h5{
+.info1>h1,h4,h5{
     color: white;
 }
 
@@ -70,4 +70,133 @@ h2{
     }
     
 }
+
+.tab li{
+    list-style-type:none ;
+}
+.tab li a{
+    text-decoration: none;
+    color:green;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.box{
+    position: relative;
+    width: 90%;
+    height: fit-content;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 0%;
+    background-color: rgba(255, 255, 255,0.7);
+}
+
+.tab{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.content{
+    border-top: 3px solid #fff;
+}
+.content p{
+    width: 100%;
+    padding: 2%;
+}
+
+.content1,.content2,.content3{
+    display: none;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+
+.content1:target,.content2:target,.content3:target{
+    display: block;
+}
+
+.group1{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1%;
+}
+.pcard{
+    display: flex;
+    background-color: rgba(255, 255,255,0.7);
+    width: 540px ;
+    height: 250px;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.pcard img{
+    width: 10rem;
+    height: 13rem;
+    margin: 2% auto;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgba(33, 32, 32, 0.2); 
+}
+
+.pinfo{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    max-width: 50vw;
+    text-overflow: ellipsis;
+    margin: 5px;
+}
+
+.pinfo>p{
+    max-width: 100% ;
+    font-size: 0.8rem;
+    margin-top: -10px;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+}
+.btnw{
+    margin-right: 10px;
+    width: 100px;
+    height: 5vh;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(255, 255,255);
+    cursor: pointer;
+}
+.btn2{
+    max-width: 120px;
+    width: 120px;
+    border: none;
+    border-radius: 6px;
+    background-color: #008000;
+    cursor: pointer;
+    color: white;
+    font-size: 0.5rem;
+    font-weight: bold;
+}
+
+.pinfo>h4{
+    color: black;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 80%;
+    min-height: 2.3rem;
+    text-overflow: ellipsis;
+}
+
+.pinfo>h6{
+    margin-top: -10px;
+}
+
+
+
 
