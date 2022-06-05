@@ -1,11 +1,11 @@
 .banner{
     position: relative;
 }
-.banner img{
+.banner>img{
     width: 100%;
 }
 
-.banner button{
+.banner>button{
     position: absolute;
     top: 70%;
     left: 50%;
