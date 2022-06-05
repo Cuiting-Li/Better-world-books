@@ -110,7 +110,7 @@ select{
     margin-top: 3%;
 }
 
-.button>.btnw{
+.button>a>.btnw{
     margin-right: 10px;
     width: 100px;
     height: 5vh;
