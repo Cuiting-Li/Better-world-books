@@ -110,7 +110,7 @@ select{
     margin-top: 3%;
 }
 
-.btnw{
+.button>.btnw{
     margin-right: 10px;
     width: 100px;
     height: 5vh;
@@ -120,7 +120,7 @@ select{
     cursor: pointer;
 }
 
-.btn2{
+.button>.btn2{
     max-width: 120px;
     width: 120px;
     border: none;
