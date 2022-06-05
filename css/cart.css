@@ -1,0 +1,175 @@
+.item-name{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-left: 55%;
+
+}
+.item-name>p{
+    margin-left:9%;
+    padding-right: 25px;
+    font-size: 20px;
+}
+
+.cart{
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.added-product{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255,0.3 );
+    border-radius: 20px;
+    margin: 0 15% 2% 15%;
+    height: 200px;
+    padding: 20px;
+}
+
+input.choose{
+    width: 25px;
+    height: 25px;
+}
+.added-left{
+    display: flex;
+    align-items: center;
+}
+.added-left>img{
+    width: 150px;
+    height: 180px;
+    border-radius: 10px;
+}
+.added-left>.added-info{
+    margin-left: 2%;
+}
+.a-icon{
+    width: 20px;
+
+}
+
+.added-right{
+    display: flex;
+}
+
+.fliter{
+    display: flex;
+}
+
+.fliter>select{
+    border: 2px solid green;
+    border-radius: 10px;
+    margin-left: 6%;
+    width: 140px;
+    font-size: 20px;
+    height: 30px;
+}
+
+.price{
+    margin-left: 6%;
+    font-size: 1.5rem;
+    color: brown;
+    
+}
+
+.order-summary{
+    color: white;
+    margin: 0 15% 0 15%;
+}
+.s-title{
+    font-size: 28px;
+    font-weight: bold;
+}
+.subtotal{
+    margin-top: -30px;
+    font-size: 23px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.s-fee{
+    margin-top: -30px;
+    font-size: 23px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total{
+    margin-top: -30px;
+    color: red;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tool-bar{
+    display: flex;
+    background-color: rgba(255, 255, 255,0.5 );
+    justify-content: space-around;
+    align-items: center;
+}
+
+.t-select{
+    color: green;
+    align-items: center;
+    display: flex;
+}
+.coupon{
+    width: 140px;
+    height: 35px;
+    background: rgba(255,255, 255,0.8);
+    display: flex;
+    border-radius: 50px;
+    border: 2px solid green;
+    padding: 1px 10px;
+    margin:2%;
+}
+.coupon>img{
+    width: 50px;
+    cursor: pointer;
+    padding: 1px;
+}
+.coupon input{
+    width: 80px;
+    background: transparent;
+    outline: none;
+    border: none;
+}
+
+.btn-c{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    background-color: green;
+    border: none;
+    border-radius: 20px;
+    width: 140px;
+    margin:2% 2% 0 0;
+    height: 40px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .fliter{
+        flex-wrap: wrap;
+    }
+    .added-right{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .order-summary{
+        margin: 1%;
+    }
+}
+@media screen and (max-width: 1000px) {
+
+    .added-product{
+        margin: 3% 0 3% 0;
+        padding: 0%;
+    }
+    .item-name{
+        display: none;
+    }
+}

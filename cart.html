@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/cart.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+         
+         $('#myTopnav').load("nav.html");
+      
+      });
+      </script>
+</head>
+<body>
+    <div id="myTopnav"></div>
+    <div class="cart">Shopping cart</div>
+    <div class="item-name">
+        <p>Condition</p>
+        <p>QTY</p>
+        <p>Price</p>
+    </div>
+
+    <div class="added-product">
+        <input type="checkbox" class="choose" checked>
+        <div class="added-left">
+            <img src="./image/b3.jpeg" alt="">
+            <div class="added-info">
+                <p>Tiger VS Nightmare</p>
+                <p>By Emily Tetri</p>
+                <img src="./image/Green-check-mark-on-transparent-background-PNG (1).png" class="a-icon" alt=""> 
+            </div>
+        </div>
+        <div class="added-right">
+            <div class="fliter">
+                <select name="" id="condition">
+                    <option value="">New copy</option>
+                    <option value="Used good">Used good</option>
+                    <option value="">E-book</option>
+                </select>
+                <select name="" id="value">
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                </select>
+            </div>
+            <div class="price">$8.99</div>
+        </div>
+    </div>
+    <div class="added-product">
+        <input type="checkbox" class="choose" checked>
+        <div class="added-left">
+            <img src="./image/b4.jpeg" alt="">
+            <div class="added-info">
+                <p>Flubby Is Not a Good Pet!</p>
+                <p>By J.E.Morris</p>
+                <img src="./image/Green-check-mark-on-transparent-background-PNG (1).png" class="a-icon" alt=""> 
+            </div>
+        </div>
+        <div class="added-right">
+            <div class="fliter">
+                <select name="" id="condition">
+                    <option value="">New copy</option>
+                    <option value="Used good">Used good</option>
+                    <option value="">E-book</option>
+                </select>
+                <select name="" id="value">
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                </select>
+            </div>
+            <div class="price">$9.99</div>
+        </div>
+    </div>
+
+    <div class="order-summary">
+        <div class="s-title">
+            <p>Order summary</p>
+        </div>
+        <div class="subtotal">
+            <p>2 items subtotal</p>
+            <p>$18.8</p>
+        </div>
+        <div class="s-fee">
+            <p>Shipping fee</p>
+            <p>$0.00</p>
+        </div>
+        <div class="total">
+            <p>Total: $18.8</p>
+        </div>
+
+    </div>
+
+    <div class="tool-bar">
+        <div class="t-select">
+            <input type="checkbox" class="choose" checked>
+            <p>Select all</p>
+        </div>
+        <div class="coupon">
+            <input type="text" placeholder="Coupon">
+            <img src="./image/kisspng-coupon-computer-icons-discounts-and-allowances-vou-term-5ae3e1232c1556.4897910115248837471806.png" alt="">
+        </div>
+        <a href=""><button type="submit" class="btn-c">Checkout</button></a>
+    </div>
+
+    <footer>
+        <div class="footer-content" id="bottom-footer">
+            <h1>Betterworldbooks</h1>
+            <p>Better World Books is an American online bookseller of used and new books, founded in 2002 by students of the University of Notre Dame, Indiana.Better World Books' used book inventory comes primarily from regular book drives at over 1,800 colleges and universities and donations from over 3,000 library systems, in addition to donation boxes found on corners and on college campuses.The company has distribution warehouses in Mishawaka, Indiana; Reno, Nevada; and Dunfermline, Scotland.</p>
+            <div class="footer-email">
+                <p>Get Our Deals In Your Box</p>
+                <div class="emailbar">
+                    <input type="text" placeholder="Email address">
+                    <img src="./image/sendicon.png" alt="">
+                </div> 
+            </div>
+            <ul class="media">
+                <li><img src="./image/pticon.png" alt=""></li>
+                <li><img src="./image/insicon.png" alt=""></li>
+                <li><img src="./image/twittericon.png" alt=""></li>
+                <li><img src="./image/fbicon.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>Terms | Privacy | CCPA | Copyright | Legal © Better World Books</p>
+    
+        </div>
+    </footer>
+</body>
+</html>
