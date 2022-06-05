@@ -5,7 +5,7 @@
     width: 100%;
 }
 
-.banner>.view-btn {
+.view-btn>button {
     position: absolute;
     border: none;
     top: 60%;
