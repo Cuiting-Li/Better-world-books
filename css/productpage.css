@@ -1,3 +1,23 @@
+.banner{
+    position: relative;
+}
+.banner img{
+    width: 100%;
+}
+
+.banner button{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);/*the button can stay in center*/
+    border: none;
+    border-radius: 50px;
+    width: 80px;
+    height: 30px;
+    font-size: 1.2rem;
+    color:black;
+}
+
 .category{
     display: flex;
     justify-content: center;
