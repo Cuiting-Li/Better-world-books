@@ -5,8 +5,9 @@
     width: 100%;
 }
 
-.banner>a>button{
+.banner>.view-btn {
     position: absolute;
+    border: none;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);/*the button can stay in center*/
