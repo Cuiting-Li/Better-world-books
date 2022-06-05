@@ -1,13 +1,13 @@
 .banner{
     position: relative;
 }
-.banner>img{
+.ad{
     width: 100%;
 }
 
-.banner>button{
+.banner>a>button{
     position: absolute;
-    top: 70%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);/*the button can stay in center*/
     border: none;
