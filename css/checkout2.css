@@ -1,0 +1,144 @@
+.title{
+    font-size: 35px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    
+}
+.badge1{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: green;
+    font-size: 30px;
+    border-radius: 50%;
+}
+.badge{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: green;
+    font-size: 30px;
+    border-radius: 50%;
+   
+}
+
+.active-badge{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.ship-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    text-align: center;
+    color: white;
+}
+
+.ship-info>p{
+    font-size: 25px;
+}
+
+.ship-line1{
+    display: flex;
+}
+
+.nameinput{
+   width: 300px;
+   height: 30px;
+}
+
+.name>p{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.country>select{
+    height: 30px;
+    width: 80px;
+    margin-left: 2px;
+}
+
+.email{
+    display: flex;
+    justify-content: flex-start;
+    height: 30px;
+    width: 380px;
+    margin-top: 10px;
+}
+
+.address{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    text-align: center;
+    color: white;
+}
+
+.addressline1>p{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.addressinput{
+    width: 380px;
+    height: 30px;
+}
+
+.Cityinput{
+    width: 188px;
+    height: 30px;
+}
+
+.stateinput{
+    margin-top: 10px;
+    width: 188px;
+    height: 30px;
+}
+
+.pcinput{
+    margin-top: 10px;
+    width: 188px;
+    height: 30px;
+}
+
+.addressline3>select{
+    width: 188px;
+    height: 30px;
+}
+
+.btn-sc{
+    width: 140px;
+    height: 35px;
+    border: none;
+    border-radius: 15px;
+    background-color: #008000;
+    cursor: pointer;
+    color: white;
+    font-size: 0.5rem;
+    font-weight: bold;
+}

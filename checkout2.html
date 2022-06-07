@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/checkout2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+         
+         $('#myTopnav').load("nav.html");
+      
+      });
+      </script>
+</head>
+<body>
+    <div id="myTopnav"></div>
+    <div class="title"> <p>Checkout</p> </div>
+    <div class="container">
+        <span class="badge1">1</span>
+        <span class="active-badge">2</span>
+        <span class="badge">3</span>
+    </div>
+
+    <div class="ship-info">
+        <p>Shipping address</p>
+        <div class="ship-line1">
+            <div class="name">
+                <p>Name</p>
+                <input type="text" placeholder="Name" class="nameinput">
+            </div>
+            <div class="country">
+                <p>Country</p>
+                <select name="" id="place">
+                    <option value="">Australia</option>
+                    <option value="">America</option>
+                    <option value="">China</option>
+                    <option value="">Thailand</option>
+                </select>
+            </div>
+        </div>
+        <input type="text" placeholder="Email" class="email">
+    </div>
+
+    <div class="address">
+        <div class="addressline1">
+            <p>Address</p>
+            <input type="text" placeholder="Address" class="addressinput">
+        </div>
+        <div class="addressline2">
+            <input type="text" placeholder="City" class="Cityinput">
+            <input type="text" placeholder="State" class="stateinput">
+        </div>
+        <div class="addressline3">
+            <input type="text" placeholder="Postal code" class="pcinput">
+            <select name="" id="delivery">
+                <option value="">Standard delivery</option>
+                <option value="">DHL</option>
+                <option value="">UPS</option>
+            </select>
+        </div>
+        <div class="text-reminder">
+            <p>*Standard Delivery times may vary by supplier</br>
+                Please note we cannot guarantee shipping address</br> changes and/or cancellations.</p>
+        </div>
+        <button type="submit" class="btn-sc" href="#">Save&Continue</button>
+    </div>
+
+
+    
+
+    
+</body>
+</html>
