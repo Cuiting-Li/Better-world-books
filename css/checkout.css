@@ -1,18 +1,27 @@
+.sign-in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    text-align: center;
+    color: white;
+}
 .c-title{
     display: flex;
     justify-content: center;
-    font-size: 30px;
+    font-size: 35px;
     color: white;
-    margin-top: 2%;
+    margin-top: 20px;
 }
 .container{
     display: flex;
     justify-content: center;
+    margin-top: 2%;
     
 }
-.badge{
-    height: 60px;
-    width: 60px;
+.badge-2{
+    height: 50px;
+    width: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,12 +29,25 @@
     color: green;
     font-size: 30px;
     border-radius: 50%;
-    margin: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.badge{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: green;
+    font-size: 30px;
+    border-radius: 50%;
+   
 }
 
 .active-badge{
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,16 +55,12 @@
     color: white;
     font-size: 30px;
     border-radius: 50%;
-    margin: 3%;
 }
 
 .s-title{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-size: 25px;
     color: white;
-    margin-top: 2%;
+    margin-top: 20px;
 }
 
 .s-stitle{
@@ -50,39 +68,81 @@
     align-items: center;
     justify-content: center;
     color: white;
-}
-.s-stitle>a{
-    margin: 2%;
+    margin-top: 10px;
 }
 
 .enter-info{
-    width: 50vw;
-    height: 35px;
-    border-radius: 50px;
-    border: 2px solid green;
-    display: flex;
-    margin: 2% 25% 2% 25%;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    border: 3px solid green;
+    margin-top: 15px;
+    padding: 10px;
 }
-.btn{
+
+.btn-login>a{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
 }
+
 .btn-s,.btn-c{
-    display: flex;
-    justify-content: center;
-    font-size: 18px;
+    font-size: 16px;
     color: white;
-    font-weight: bold;
     background-color: green;
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     width: 200px;
     height: 40px;
-    margin-top: 3%;
-    margin-left: 30%;
+    margin-top: 15px;
+    cursor: pointer;
 }
 
+.sign-media>p{
+    font-size: 17px;
+    margin-top: 30px;
+}
 
+.sign-media>p::before{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -30px;
+}
 
+.sign-media>p::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    margin-left: 190px;
+    margin-top: -10px;
+}
 
+.sign-media ul{
+    display: flex;
+    list-style: none;
+        align-items: center;
+        justify-content: center;
+}
+
+.sign-media img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.twi-icon{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.sign-media img:hover{transform: scale(1.5)}
 

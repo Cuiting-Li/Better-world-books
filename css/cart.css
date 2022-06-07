@@ -148,6 +148,7 @@ input.choose{
     width: 140px;
     margin:2% 2% 0 0;
     height: 40px;
+    cursor: pointer;
 }
 
 
