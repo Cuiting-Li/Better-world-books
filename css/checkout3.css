@@ -1,0 +1,154 @@
+.title{
+    font-size: 35px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    
+}
+.badge1{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: green;
+    font-size: 30px;
+    border-radius: 50%;
+}
+.badge2{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: green;
+    font-size: 30px;
+    border-radius: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.active-badge{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;
+}
+
+.order{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(255, 255, 255,0.4 );
+    border-radius: 20px;
+    height: fit-content;
+    margin: 3% 10% 3% 10%;
+    padding: 20px;
+}
+
+.order p{
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.o1{
+    display: flex;
+    overflow: auto;
+    max-width: 70%;
+    margin-left: 5%;
+}
+.o1 img{
+    cursor: pointer;
+    margin-right: 20px;
+    width: 120px;
+    min-width: 100px;
+    min-height: 100px ;
+    height: 150px;
+    border-radius: 5%;
+}
+
+.card-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    text-align: center;
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.c-line1>p{
+    display: flex;
+    justify-content: flex-start;
+}
+.c-line1 img{
+    width: 50px;
+}
+.c-line1-1{
+    display: flex;
+    align-items: center;
+}
+.cardinput{
+    width: 280px;
+    height: 35px;
+}
+.c-line2>p{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nameinput{
+    width: 330px;
+    height: 35px;
+}
+
+.c-line3{
+    display: flex;
+}
+
+.dateinput{
+    width: 247px;
+    height: 35px;
+}
+.date>p{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cvvinput{
+    margin-left: 4px;
+    width: 77px;
+    height: 35px;
+}
+.cvv>p{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.btn-ps{
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #008000;
+    cursor: pointer;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
