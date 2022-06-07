@@ -54,14 +54,15 @@
 }
 
 p{
-    margin: 1% 0 1% 0;
+    margin-left: 10px;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 .Search-history{
     display: flex;
     flex-wrap: wrap; /*To let the label change line when turn into small screen*/
     margin-bottom: 40px;
+    margin-left: 5px;
 }
 
 .Search-history img, .Popular-search img{
@@ -83,8 +84,8 @@ p{
 
 .label p{
     color: black;
-    font-size: 1.2rem;
-    padding-left: 5px;
+    font-size: 1rem;
+    padding: 5px;
 }
 
 
@@ -93,6 +94,6 @@ p{
 .Popular-search{
     display: flex;
     flex-wrap: wrap;
-    margin: 1% 0 0 0;
-   margin-bottom: 80px;
+    margin-bottom: 80px;
+    margin-left: 5px;
 }
