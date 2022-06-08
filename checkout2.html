@@ -30,7 +30,7 @@
         <div class="ship-line1">
             <div class="name">
                 <p>Name</p>
-                <input type="text" placeholder="Name" class="nameinput">
+                <input type="text" placeholder="Name" id="name">
             </div>
             <div class="country">
                 <p>Country</p>
@@ -42,20 +42,20 @@
                 </select>
             </div>
         </div>
-        <input type="text" placeholder="Email" class="email">
+        <input type="text" placeholder="Email" id="email">
     </div>
 
     <div class="address">
         <div class="addressline1">
             <p>Address</p>
-            <input type="text" placeholder="Address" class="addressinput">
+            <input type="text" placeholder="Address" id="addressinput">
         </div>
         <div class="addressline2">
-            <input type="text" placeholder="City" class="Cityinput">
-            <input type="text" placeholder="State" class="stateinput">
+            <input type="text" placeholder="City" id="cityinput">
+            <input type="text" placeholder="State" id="stateinput">
         </div>
         <div class="addressline3">
-            <input type="text" placeholder="Postal code" class="pcinput">
+            <input type="text" placeholder="Postal code" id="pcinput">
             <select name="" id="delivery">
                 <option value="">Standard delivery</option>
                 <option value="">DHL</option>
@@ -66,7 +66,7 @@
             <p>*Standard Delivery times may vary by supplier</br>
                 Please note we cannot guarantee shipping address</br> changes and/or cancellations.</p>
         </div>
-        <a href="./checkout3.html"><button type="submit" class="btn-sc">Save&Continue</button></a>
+        <button type="submit" id="btn-sc">Save&Continue</button>
     </div>
 
     <footer>
@@ -92,7 +92,8 @@
     
         </div>
     </footer>
-    
+
+    <script src="./js/checkout2.js"></script>
 
     
 </body>

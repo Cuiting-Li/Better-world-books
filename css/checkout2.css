@@ -66,7 +66,7 @@
     display: flex;
 }
 
-.nameinput{
+#name{
    width: 300px;
    height: 30px;
 }
@@ -82,7 +82,7 @@
     margin-left: 2px;
 }
 
-.email{
+#email{
     display: flex;
     justify-content: flex-start;
     height: 30px;
@@ -104,23 +104,23 @@
     justify-content: flex-start;
 }
 
-.addressinput{
+#addressinput{
     width: 380px;
     height: 30px;
 }
 
-.Cityinput{
+#cityinput{
     width: 188px;
     height: 30px;
 }
 
-.stateinput{
+#stateinput{
     margin-top: 10px;
     width: 188px;
     height: 30px;
 }
 
-.pcinput{
+#pcinput{
     margin-top: 10px;
     width: 188px;
     height: 30px;
@@ -131,7 +131,7 @@
     height: 30px;
 }
 
-.btn-sc{
+#btn-sc{
     width: 160px;
     height: 35px;
     border: none;
