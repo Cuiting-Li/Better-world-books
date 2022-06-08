@@ -42,7 +42,7 @@
     border: none;
     border-radius: 10px;
     width: 140px;
-    margin:2% 2% 0 0;
+    margin: 10px 5px 0 0;
     height: 40px;
 }
 
@@ -51,7 +51,7 @@
     border: 2px solid green;
     border-radius: 10px;
     width: 160px;
-    margin-top:2%;
+    margin-top:10px;
     height: 40px;
 }
 
@@ -129,7 +129,7 @@ h2{
 .pcard{
     display: flex;
     background-color: rgba(255, 255,255,0.7);
-    max-width: 540px ;
+    max-width: 500px ;
     height: 250px;
     margin-bottom: 5%;
     border-radius: 5px;

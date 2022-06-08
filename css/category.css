@@ -28,7 +28,7 @@
     border-radius: 20px;
     height: fit-content;
     margin: 3% 5% 0 5%;
-    padding: 20px;/*to create scroll bar and suit mobile version*/
+    padding: 20px;/*create a border*/
 }
 
 .category p{
@@ -112,17 +112,18 @@ select{
 
 .button>a>.btnw{
     margin-right: 10px;
-    width: 100px;
+    width: 80px;
     height: 5vh;
     border: none;
     border-radius: 6px;
     background-color: rgba(255, 255,255);
     cursor: pointer;
+    font-weight: bold;
 }
 
-.button>.btn2{
-    max-width: 120px;
-    width: 120px;
+.btn2{
+    height: 5vh;
+    width: 100px;
     border: none;
     border-radius: 6px;
     background-color: #008000;
