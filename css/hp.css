@@ -152,10 +152,13 @@
     border-radius: 6px;
     background-color: rgba(255, 255,255);
     cursor: pointer;
+    font-size: 0.5rem;
+    font-weight: bold;
 }
 .btn2{
     max-width: 120px;
     width: 120px;
+    height: 5vh;
     border: none;
     border-radius: 6px;
     background-color: #008000;
