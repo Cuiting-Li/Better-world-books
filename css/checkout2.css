@@ -49,7 +49,7 @@
     margin-right: 5%;
 }
 
-.ship-info{
+.ship-info{ /*to make all input box and button in the center*/
     display: flex;
     align-items: center;
     justify-content: center;
