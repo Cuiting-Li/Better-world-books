@@ -24,7 +24,7 @@
     justify-content: space-around;
     background-color: rgba(255, 255, 255,0.3 );
     border-radius: 20px;
-    margin: 0 15% 2% 15%;
+    margin: 0 15% 2% 15%;/*To create some space around the side, so the information can be closer and easy to read*/
     height: 200px;
     padding: 20px;
 }
@@ -167,7 +167,7 @@ input.choose{
 @media screen and (max-width: 1000px) {
 
     .added-product{
-        margin: 3% 0 3% 0;
+        margin: 3% 0 3% 0;/*set left and right margin back to 0 to prevent over crowded*/
         padding: 0%;
     }
     .item-name{

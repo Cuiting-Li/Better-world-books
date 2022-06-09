@@ -107,13 +107,11 @@ h2{
 }
 .content p{
     width: 100%;
-    padding: 2%;
+    padding: 0 2% 3% 2%;
 }
 
 .content1,.content2,.content3{
-    display: none;
-    word-break: break-word;
-    word-wrap: break-word;
+    display: none; 
 }
 
 .content1:target,.content2:target,.content3:target{

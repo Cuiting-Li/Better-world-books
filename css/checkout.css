@@ -39,7 +39,7 @@
    
 }
 
-.active-badge{
+.active-badge{ /*The active-badge can show user they are on step1or2or3*/
     height: 50px;
     width: 50px;
     display: flex;
